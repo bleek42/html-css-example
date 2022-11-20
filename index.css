@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'FiraCode Reg';
+    src: url('assets/fonts/static/FiraCode-Regular.ttf');
+}
+
+/*
+    this is a comment
+*/
+
+header {
+    display: flex;
+    margin: 5px;
+    border: 3px solid black;
+    padding: 5px 3px 3px 5px;
+}
+
+header nav {
+    display: inline-flex;
+}
+
+ul li a {
+    font-family: 'FiraCode Reg' , 'Courier New', Courier, monospace;
+}
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'FiraCode Reg';
+}
+
+.section-1 {
+    background-color: blue;
+}
+
+article {
+    background-color: aqua;
+}
+
+.lg {
+    margin: 5px;
+    padding: 5PX;
+    display: inline-flex;
+}
+
+#article-1 {
+    display: flex;
+}
