@@ -24,13 +24,26 @@ header nav {
     display: inline-flex;
 }
 
+ul {
+    display: inline-flex;
+    border: 3px solid black;
+}
+
 ul li a {
-    font-family: 'FiraCode Reg' , 'Courier New', Courier, monospace;
+    font-family: 'FiraCode Reg', 'Courier New', Courier, monospace;
+}
+
+main {
+    border: 3px solid black;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    background-color: cornflowerblue;
 }
 
 section {
     display: flex;
-    flex-flow: column wrap;
+    justify-content: center;
+    flex-direction: column;
     font-family: 'FiraCode Reg';
 }
 
